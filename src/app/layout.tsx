@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
+import { geistMono, geistSans } from '@/fonts';
 import { cn } from '@/lib/utils';
-import { geistMono, geistSans } from './fonts';
 
 import './globals.css';
 
