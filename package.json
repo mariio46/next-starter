@@ -1,40 +1,40 @@
 {
-    "name": "next-starter",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-        "dev": "next dev --turbopack --port=3033",
-        "build": "next build",
-        "start": "next start --port=3033",
-        "lint": "next lint",
-        "preview": "next build && next start --port=3033",
-        "check": "prettier --check .",
-        "format": "prettier --write .",
-        "knip": "knip",
-        "tsc": "tsc",
-        "validate": "next lint && tsc"
-    },
-    "dependencies": {
-        "clsx": "^2.1.1",
-        "next": "15.4.1",
-        "react": "^19.1.0",
-        "react-dom": "^19.1.0",
-        "tailwind-merge": "^3.3.1"
-    },
-    "devDependencies": {
-        "@eslint/eslintrc": "^3.3.1",
-        "@tailwindcss/postcss": "^4.1.11",
-        "@types/node": "^20.19.8",
-        "@types/react": "^19.1.8",
-        "@types/react-dom": "^19.1.6",
-        "eslint": "^9.31.0",
-        "eslint-config-next": "15.1.6",
-        "knip": "^5.62.0",
-        "postcss": "^8.5.6",
-        "prettier": "^3.6.2",
-        "prettier-plugin-organize-imports": "^4.1.0",
-        "prettier-plugin-tailwindcss": "^0.6.14",
-        "tailwindcss": "^4.1.11",
-        "typescript": "^5.8.3"
-    }
+  "name": "next-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack --port=3033",
+    "build": "next build",
+    "start": "next start --port=3033",
+    "lint": "eslint .",
+    "preview": "next build && next start --port=3033",
+    "check": "prettier --check .",
+    "format": "prettier --write .",
+    "knip": "knip",
+    "tsc": "tsc",
+    "validate": "eslint . && tsc"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "next": "15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/node": "^20.19.13",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.35.0",
+    "eslint-config-next": "15.1.6",
+    "knip": "^5.63.1",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "prettier-plugin-organize-imports": "^4.2.0",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2"
+  }
 }
